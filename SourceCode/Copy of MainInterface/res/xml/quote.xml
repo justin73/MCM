@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <quote day="1" author="Rumi">
+        Out beyond ideas of wrong doing and right doing, there is a field. I'll meet you there.
+    </quote>
+    <quote day="2" author="Père Teilhard de Chardin, Hymn of the Universe">
+        It is impossible to keep one’s gaze on the vast horizons opened out to us by science without feeling the stirrings of an obscure desire to see men drawn closer and closer together by an ever-increasing knowledge and sympathy until finally, in obedience to some divine attraction, there remains but one heart and one soul on the face of the earth.  
+    </quote>
+    <quote day="3" author="Christopher Fry, A Sleep of Prisoners">
+        O, the fabulous wings unused Folded in the heart!
+
+	</quote>
+	<quote day="4" author="St Teresa of Avila, to Maria San José, St Teresa of Avila – biography by Stephen Clissold">
+        How deeply rooted in this nature of ours is this desire to see our love returned!  It cannot be wrong, for our Lord wishes it too, though the love we owe him...is infinitely greater. But let us imitate him even in this. 
+	</quote>
+	<quote day="5" author="Albert Schweitzer">
+        Compassion, in which all ethics must take roots, can only attain its full depth and breadth if  it  embraces all living creatures and does not limit itself to mankind.   
+	</quote>
+	<quote day="6" author="Paul Tillich">
+       There is no love which does not become help
+	</quote>
+	<quote day="7" author="Chief Seattle">
+        Man did not weave the web of life, he is merely a strand in it. Whatever he does to the web, he does to himself. 
+	</quote>
+	
+	<quote day="8" author="Wendell Berry">
+        Lovers must not, like userers, live for themselves alone.  They must finally turn from their gaze at one another back toward the community. 
+	</quote>
+	<quote day="9" author="Albert Einstein">
+        Strange is our situation here upon earth.  Each of us comes for a short visit, not knowing why, yet sometimes seeming to a divine purpose.  From the standpoint of daily life, however, there is one thing we do know: that we are here for the sake of others 
+	</quote>
+	<quote day="10" author="Mohandas Ghandi">
+        First they ignore you, then they laugh at you, then they fight you, then you win. 
+	</quote>
+	<quote day="11" author="Neil Whitehouse, minister and bodywork therapist">
+        Compassion comes from an open heart.  But what if our heart is hardened?Touch your heart, breathe in deeply and as you breathe out imagine all the tension is released.  Can you feel that?  Compassion is in your touch and breath, waiting to flower.
+ 
+	</quote>
+	<quote day="12" author="Desmond Tutu.">
+        Frequently people think that compassion and love are merely sentimental.  No! They are very demanding.  If you are going to be compassionate, be prepared for action. 
+	</quote>
+	<quote day="13" author="John Wesley">
+        Do all the good you can, by all the means you can, in all the ways you can, in all the places you can, at all the times you can, to all the people you can, as long as you ever can.
+	</quote>
+	<quote day="14" author="Theodore Rubin, psychiatrist">
+        Compassion for myself is the most powerful healer of them all. 
+	</quote>
+	<quote day="15" author="Barbara Garrison, author">
+        Fear grows out of the things we think; it lives in our minds.  Compassion grows out of what we are and lives in our hearts
+	</quote>
+	<quote day="16" author="Ann McCaffrey, novelist">
+        Make no judgments where you have no compassion. 
+	</quote>
+	<quote day="17" author="Rabbi Herschel">
+        Just to be is a blessing, just to live is holy.  
+	</quote>
+	<quote day="18" author="Rumi">
+        Fish don't hold the sacred liquid in cups. They swim the huge fluid freedom
+	</quote>
+	<quote day="19" author="Walt Whitman">
+        We convince by our presence
+	</quote>
+	<quote day="20" author="Alice Walker">
+        Helped are those who find the courage to do at least one small thing each day to help the existence of another - plant, animal, river, human being. They shall be joined by a multitude of the timid. 
+	</quote>
+	<quote day="21" author="Mirza Galid, 19th century Urdu poet">
+        For the raindrop, joy is entering the river.
+	</quote>
+	<quote day="22" author="Rilke">
+        Animals come to drink when night holds sway and the forest is free of strangers. Beauty comes.
+	</quote>
+	<quote day="23" author="Rabbi Herschel">
+        The beginning of our happiness is the realization that life without wonder is not worth living. What we lack is not a will to live but a will not wonder.
+	</quote>
+	<quote day="24" author="Tao te ching">
+        Just realize where you come from. This is the essence of wisdom.
+	</quote>
+	<quote day="25" author="Samual Taylor Coleridge ">
+        Bles't mystery, it was a luxury to be.  
+	</quote>
+	<quote day="26" author="Upanishads">
+        You are what your deepest desire is. As your desire, so your intention. As your intention, so is your will. As your will so is your deed. As your deed, so is your destiny 
+	</quote>
+	<quote day="27" author="Carlos Fuentes">
+        When we exclude, we betray ourselves. When we include, we find ourselves 
+	</quote>
+	<quote day="28" author="Blaise Pascal">
+        In difficult times, you should always carry something beautiful in your mind. 
+	</quote>
+	<quote day="29" author="Yeats">
+        Come near, come near, come near. Ah leave me still..... a little space for the rose breath to fill 
+	</quote>
+	<quote day="30" author="Paul Tillich">
+        Cruelty towards others is always cruelty towards ourselves.
+	</quote>
+</PreferenceScreen>

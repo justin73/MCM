@@ -1,0 +1,70 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:weightSum="2" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="100" >
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="50"
+            android:background="@drawable/white"
+            android:scaleType="fitXY"
+            android:src="@drawable/quote"
+            android:contentDescription="@string/quoteImageButton" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="50"
+            android:background="@drawable/white"
+            android:scaleType="fitXY"
+            android:src="@drawable/timer"
+            android:contentDescription="@string/timerImageButton" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="100" >
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="50"
+            android:background="@drawable/white"
+            android:scaleType="fitXY"
+            android:src="@drawable/diary" 
+            android:contentDescription="@string/diaryImageButton"/>
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="50"
+            android:adjustViewBounds="true"
+            android:background="@drawable/white"
+            android:baselineAlignBottom="true"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/setting" 
+            android:contentDescription="@string/moreinfoImageButton"/>
+
+    </TableRow>
+
+</TableLayout>

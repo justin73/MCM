@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item title="What is &apos;Compassion&apos;?">
+       Compassion is like dancing or playing the guitar – the more you practice it, the better you get. This app helps you put more compassion in your life by spending a few moments each day thinking and meditating on it.
+    </item>
+    <item title="About this app">
+      The MCM My Compassion App sends you a daily quote, at a time you choose, about compassion and its positive effects on you and those around you.
+The app helps you practice compassion by creating a few minutes of timed, silent meditation on compassion in your life – you choose how long.
+And you can keep track of your thoughts and experiences practicing compassion with the app’s daily diary.
+    </item>
+    <item title="Tips for Meditaters">
+        If you’re new to meditating, here are a couple of suggestions:
+1.	You can walk or sit to meditate;
+2.	Start small – commit to just 2 minutes a day. You can do it for 5 minutes or 10 if you feel good about it, but commit to something you can stick with.
+3.	Pick a trigger – you can use the app’s timed, daily quote as a trigger or something like brushing your teeth or washing the dishes at supper to remind you to meditate.
+4.	Find a quiet spot. If you sit, sit comfortably on a pillow or a chair. If you walk, walk on a smooth, level surface, indoors or out. This isn’t hiking or aerobics; your focus should be on more compassion in your life, not on staying upright.
+5.	Set the timer and focus on your breath - follow it in through your nostrils, your throat, your chest and belly. Sit or walk straight, keep your eyes open but looking at the ground in front of you with a soft focus.
+    </item>
+    <item title="Q4">
+       For more compassion meditation resources, visit the MCM website at _______.
+    </item>
+
+</PreferenceScreen>

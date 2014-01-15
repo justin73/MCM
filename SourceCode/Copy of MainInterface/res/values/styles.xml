@@ -1,0 +1,13 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    
+
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+    <style name="Theme.Splash" parent="android:Theme">
+    <item name="android:windowBackground">@drawable/splash_page</item>
+    <item name="android:windowNoTitle">true</item>
+
+    </style> 
+	
+</resources>

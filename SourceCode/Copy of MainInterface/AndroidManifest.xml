@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.compassion.maininterface"
+    android:versionCode="9"
+    android:versionName="1.07" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- add permission in order to boot automatically -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.VIBRATE" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="locale"
+        android:icon="@drawable/easter_egg_red"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <service
+            android:name="autoRunService.ServiceTest"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="autoRunService.BootBroadcast"
+            android:enabled="true"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED"
+            android:process=".remote" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="autoRunService.yourReceiver" >
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.BOOT_COMPLETED" /> -->
+                <action android:name="org.lxh.action.setalarm" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.compassionapp.notification.NotificationWidget" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/notification_widget" />
+        </receiver>
+
+        <activity
+            android:name="com.compassionapp.maininterface.SplashScreen"
+            android:icon="@drawable/application_icon"
+            android:theme="@style/Theme.Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.compassionapp.maininterface.MainActivity"
+            android:configChanges="locale"
+            android:icon="@drawable/application_icon"
+            android:label="@string/frontPage" >
+        </activity>
+        <activity
+            android:name="com.compassionapp.notification.NotificationMain"
+            android:configChanges="locale"
+            android:icon="@drawable/application_icon"
+            android:label="@string/NotificationMain" >
+        </activity>
+        <activity
+            android:name="com.compassionapp.notification.NotificationSetting"
+            android:configChanges="locale"
+            android:icon="@drawable/application_icon"
+            android:label="@string/NotificationSetting" >
+        </activity>
+        <activity
+            android:name="com.compassionapp.meditation.countdownPage"
+            android:configChanges="locale"
+            android:icon="@drawable/application_icon"
+            android:label="@string/MeditationTimer" >
+        </activity>
+        <activity
+            android:name="com.compassionapp.meditation.MeditationSetting"
+            android:configChanges="locale"
+            android:icon="@drawable/application_icon"
+            android:label="@string/MeditationTimer" >
+        </activity>
+        <activity
+            android:name="com.compassionapp.generalSetting.optionsListview"
+            android:configChanges="locale"
+            android:icon="@drawable/application_icon"
+            android:label="@string/GeneralSetting" >
+        </activity>
+        <activity
+            android:name="com.compassionapp.generalSetting.FAQList"
+            android:configChanges="locale"
+            android:icon="@drawable/application_icon"
+            android:label="@string/FAQ" >
+        </activity>
+        <activity
+            android:name="com.compassionapp.diary.NotesList"
+            android:configChanges="locale"
+            android:icon="@drawable/application_icon"
+            android:label="@string/Diary" >
+        </activity>
+        <activity
+            android:name="com.compassionapp.diary.AddNotes"
+            android:configChanges="locale"
+            android:icon="@drawable/application_icon"
+            android:label="@string/AddDiary" >
+        </activity>
+        <activity
+            android:name="com.compassionapp.diary.EditNotes"
+            android:configChanges="locale"
+            android:icon="@drawable/application_icon"
+            android:label="@string/EditDiary" >
+        </activity>
+    </application>
+
+</manifest>
